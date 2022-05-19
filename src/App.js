@@ -28,7 +28,7 @@ function App() {
     <div className="App">
       <header>
         {" "}
-        <h1>SecretChat🔥💬</h1>
+        <h1>Sup-Bruh🔥💬</h1>
         <SignOut />
       </header>
       <section>{user ? <ChatRoom /> : <SignIn />}</section>
@@ -113,6 +113,8 @@ const ChatRoom = () => {
     </>
   );
 };
+
+const ChatUsers = () => {};
 
 function ChatMessage(props) {
   const { text, uid, photoURL } = props.message;
